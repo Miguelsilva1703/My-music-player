@@ -20,8 +20,8 @@ const Player = ({ songs, setSongs, id, currentSong, setCurrentSong, isPlaying, s
             }
         });
         setSongs(newSongs);
-        //check if song is playing
     }, [currentSong]);
+
     //Event Handlers
     const playSongHandler = () => {
         if (isPlaying) {
